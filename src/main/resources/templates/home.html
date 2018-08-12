@@ -1,0 +1,45 @@
+<html>
+<body>
+<pre>
+    ${value1!}
+    ${value2!}
+    user:${user.name}
+    ${user.description}
+    ${user.getDescription()}
+
+    <#list colors as color>
+        this is a color${color_index+1}:${color}
+    </#list>
+
+    <#list map?keys as key>
+        Number:${key},Value:${map[key]}
+    </#list>
+
+    <#assign title="nowcoder"/>
+    title:${title!}
+
+<#--
+    parse:<#include "header.html"/>
+    include:<#include "header.html" parse=false/>
+-->
+
+    <#macro render_color index color>
+         color render macro ${index},${color}
+     </#macro>
+
+    <#list colors as color>
+        <@render_color index="${color_index}" color="${color}"/>
+    </#list>
+
+    <#assign hello="hello"/>
+    <#assign helloworld1="${hello} world"/>
+    <#assign helloworld2='${hello} world'/>
+    ${helloworld1}
+    ${helloworld2}
+
+    <#--
+        注释
+    -->
+</pre>
+</body>
+</html>

@@ -1,0 +1,1115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="0e727769-3db6-4d78-bd55-a87cd2ddce1e" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nowcoder/WendaApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nowcoder/aspect/LogAspect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nowcoder/async/EventConsumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nowcoder/async/EventHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nowcoder/async/EventModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nowcoder/async/EventProducer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nowcoder/async/EventType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nowcoder/async/handler/AddQuestionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nowcoder/async/handler/FeedHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nowcoder/async/handler/FollowHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nowcoder/async/handler/LikeHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nowcoder/async/handler/LoginExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nowcoder/configuration/WendaWebConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nowcoder/controller/CommentController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nowcoder/controller/FeedController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nowcoder/controller/FollowController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nowcoder/controller/HomeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nowcoder/controller/IndexController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nowcoder/controller/LikeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nowcoder/controller/LoginController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nowcoder/controller/MessageController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nowcoder/controller/QuestionController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nowcoder/controller/SearchController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nowcoder/controller/SettingController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nowcoder/dao/CommentDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nowcoder/dao/FeedDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nowcoder/dao/LoginTicketDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nowcoder/dao/MessageDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nowcoder/dao/QuestionDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nowcoder/dao/UserDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nowcoder/interceptor/LoginRequiredInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nowcoder/interceptor/PassportInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nowcoder/model/Comment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nowcoder/model/EntityType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nowcoder/model/Feed.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nowcoder/model/HostHolder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nowcoder/model/LoginTicket.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nowcoder/model/Message.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nowcoder/model/Question.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nowcoder/model/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nowcoder/model/ViewObject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nowcoder/service/CommentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nowcoder/service/FeedService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nowcoder/service/FollowService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nowcoder/service/LikeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nowcoder/service/MessageService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nowcoder/service/QuestionService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nowcoder/service/SearchService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nowcoder/service/SensitiveService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nowcoder/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nowcoder/service/WendaService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nowcoder/util/JedisAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nowcoder/util/MailSender.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nowcoder/util/RedisKeyUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nowcoder/util/WendaUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/SensitiveWords.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/nowcoder/dao/FeedDAO.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/nowcoder/dao/QuestionDAO.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mybatis-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/img/spinner2.8f60205d.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/img/sprites-1.9.2.4c54885a.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/img/sprites-1.9.2@2x.6e638473.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/img/sprites.auto.915a539c.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/img/sprites@2x.auto.dd5c79c1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/res/070a9fb26_is.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/res/0b856ef58f76b7c83a0e130f6ef71281_200x112.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/res/0ba3da3f03ced7a438118b0be77df56c_m.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/res/0c6a39621ab1d456b1e6e492d0becc0c_s.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/res/0cf21546298ad1ed3cb64be61d822c27_m.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/res/0cffb89d0b0bd4e726ae54b212a31c3b_200x112.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/res/102799979_m.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/res/10a4cd7fb082375332be33eadfd14c58_is.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/res/11ba31c8bb5473a44b7690eff24b9123_is.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/res/11be4a90ed938abfbab4899df56ee754_s.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/res/12a8e1ce5ad8060fddb93ae2df98028b_m.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/res/19456ebfe8b207320735f282769ac635_s.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/res/1ac7840eeb19ada0bbf85f51702d5784_s.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/res/1ce495b02_m.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/res/23cace5cf60f39dbc095bd7a12b2cfad_200x112.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/res/24ce38dd5fc2a0c4e0525e577eef7d64_s.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/res/272627e471a533f58f319a9e600e0a94_is.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/res/2e21e58a990f5c756e813a64a4bba14c_m.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/res/31826765d442d8222a05cd67d0643a25_270x225.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/res/33fb6f51a3f4e16b6e89172040451dca_b.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/res/3b673d6335ef6788d1659ee2b6381e97_m.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/res/41d652d947a489e056b0179ba137294b_m.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/res/450c9d9f5240f05f73d21fe3ae76f1a6_200x112.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/res/4528283ed249589634546327431667bf_is.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/res/4d104b6c6a08f7e1a48f4f32c88b1ce2_m.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/res/51559bbebaa7fd395c271b7b1c8b9f26_m.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/res/558b3e3d8be209247159ba4f83ab1c02_200x112.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/res/6088e39f2_is.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/res/66a689b2c60557eae79d839aaedf48b0_200x112.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/res/6c76223a5aef2f1d29c680a2524de791_is.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/res/6ceea810748d179f57cac0baa5cf9592_s.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/res/6cfbfc0c5e3c5ecd8784f7e733a75b4f_m.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/res/6fd46860a4b6cbc1e52d676f217ea9fd_is.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/res/7412830858217e93f6c5d06f6328cbd5_200x112.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/res/7986ef6045f2cef8352be5affce5f7d1_is.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/res/837b60aa36029a2309974e74de3b62e9_xl.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/res/845303838eca4a5b5f03cc3ca994ec28_s.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/res/845c492813e72b85c6e11cccf8ed0ff8_m.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/res/935f87219_m.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/res/975baaf73fd76f48ce6f05e19b176878_xl.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/res/9cfe980ca44e38bd9b0e5c3dee5b0f3e_270x225.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/res/9ec0168d1b210d9b8f089e16f521b82b_200x112.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/res/a3f80f6a6_m.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/res/a4df63114bd9374a73775e30db1cdd36_is.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/res/a57fdaff90865eaaef2e87051624862b_m.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/res/aa49b7ceff22ea68ca5f747115cd17af_200x112.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/res/aadd7b895_m.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/res/aadd7b895_s.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/res/actioncard-suggested-avatar.c5af416d.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/res/actioncard-validation@2x.65147043.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/res/b144d91ec_m.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/res/b3aadf89405941b05a5ce00fb06f8281_m.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/res/b476f1461388bf4907634009904739e6_is.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/res/b4a6228e6810d38e19e491c173af4d5c_m.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/res/b85ddd8aa_xl.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/res/badaaf312e59c125928bd1ea2d4b5a51_b.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/res/bb73b7fb48b0cb63aa573415dfe4d0c5_m.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/res/bc93fd5289c13c06fd569bc4f6df821e_is.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/res/be39d110759e68f389b7d2934d7353bc_m.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/res/c07f969d8dcc6251ef114fe6b1a9a563_200x112.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/res/c28e9af7f_m.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/res/c54bb4367803ba590035d2d89d1a84dd_is.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/res/c79247853_m.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/res/c898060535edfdbe4147d2135c29787f_200x112.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/res/c94c92af8_m.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/res/cafae465b8ea283498c69ab9757f86ba_xl.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/res/captcha.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/res/cbc5d3c6f333215a1c480cb3b4735b45_m.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/res/d207854fffc9e0289fbd6bbbb3986988_s.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/res/d6842d77b4bda238e0db09217e3d2f8d_270x225.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/res/d822a919d93a761634a67c2022a3f614_m.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/res/da8e974dc_is.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/res/da8e974dc_m.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/res/da8e974dc_s.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/res/df4aa616fdcfbd861c010ff71aaef95c_b.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/res/e174d6d0c_is.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/res/e6f4caaaa_m.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/res/e8757728eb70adeb8ebaa0864874c29d_is.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/res/ec6bb3fa05625b848ac4d475ecce35c9_is.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/res/f1148eb1c7170cabb0a78dad73b590f6_200x112.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/res/f99201e42237de4fb7f8d5fbf9a2d270_is.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/res/fa70eff301ba417d4a9d3f55d603a29e_s.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/res/facfb45ac94f174655695853d4470bac_200x112.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/res/fb05f15bf8bffd1590df442ff6ba7812_200x112.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/res/fb6c4dd60a9f19f5fcd8265395e11f9e_200x112.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/res/fff25000064308791f739149af611439_is.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/res/hour.3d371c99.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/res/nacl.656ec1c4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/res/nk.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/res/weekly.65279d61.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/scripts/aza-0.1.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/scripts/base.fb262f0e.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/scripts/common.fed5411f.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/scripts/ga.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/scripts/instant.e7a17de6.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/scripts/main/base/base.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/scripts/main/base/event.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/scripts/main/base/util.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/scripts/main/component/component.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/scripts/main/component/popup.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/scripts/main/component/popupAdd.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/scripts/main/component/popupMsg.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/scripts/main/jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/scripts/main/site/detail.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/scripts/main/site/follow.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/scripts/main/site/home.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/scripts/main/site/profile.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/scripts/main/util/action.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/scripts/main/util/business.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/scripts/page-index.d7b54ac7.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/scripts/page-main.5d4c554d.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/scripts/richtexteditor.aa0a4005.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/scripts/vendor.ff76fbae.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/scripts/za-0.1.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/styles/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/styles/detail.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/styles/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/styles/letter.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/styles/login.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/styles/result.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/feeds.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/followees.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/followers.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/footer.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/header.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/home.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/letter.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/letterDetail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/mails/login_exception.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/profile.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/result.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/nowcoder/InitDatabaseTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/nowcoder/LikeServiceTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/nowcoder/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/nowcoder/MultiThreadTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/nowcoder/WendaApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/init-schema.sql" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="WendaApplication.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/nowcoder/WendaApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="198">
+              <caret line="9" column="44" lean-forward="true" selection-start-line="9" selection-start-column="44" selection-end-line="9" selection-end-column="44" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#486#487#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Interface" />
+        <option value="FxmlFile" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>getEventQueueKey</find>
+      <find>userHead</find>
+      <find>macro</find>
+      <find>${vo</find>
+      <find>&lt;!--</find>
+      <find>TIMELINE</find>
+      <find>getTimelineKey</find>
+      <find>lpush</find>
+      <find>print(</find>
+      <find>Process</find>
+      <find>牛客搜索</find>
+      <find>?s</find>
+      <find>bodyclass</find>
+      <find>$</find>
+      <find>LikeS</find>
+      <find>main</find>
+      <find>provided</find>
+      <find>zm-item-vote</find>
+      <find>avatar</find>
+      <find>assign</find>
+      <find>${</find>
+      <find>ThreadLo</find>
+      <find>HostHolder</find>
+      <find>unfollow</find>
+      <find>class</find>
+      <find>StringUtils.is</find>
+      <find>StringUtils</find>
+      <find>mail</find>
+      <find>yang</find>
+      <find>0718</find>
+    </findStrings>
+    <replaceStrings>
+      <replace />
+    </replaceStrings>
+    <dirStrings>
+      <dir>D:\soft\JetBrains IDEA\IdeaProjects\wenda\src\main\java\com\nowcoder\controller</dir>
+    </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/java/com/nowcoder/model/EntityType.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/nowcoder/InitDatabaseTests.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/nowcoder/util/WendaUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/nowcoder/async/handler/FollowHandler.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/nowcoder/dao/CommentDAO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/nowcoder/service/CommentService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/nowcoder/controller/HomeController.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/footer.html" />
+        <option value="$PROJECT_DIR$/src/main/java/com/nowcoder/aspect/LogAspect.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/nowcoder/dao/FeedDAO.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/com/nowcoder/dao/FeedDAO.fxml" />
+        <option value="$PROJECT_DIR$/src/main/resources/com/nowcoder/dao/FeedDAO.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/nowcoder/service/FeedService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/nowcoder/service/QuestionService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/nowcoder/controller/CommentController.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/feeds.ftl" />
+        <option value="$PROJECT_DIR$/src/main/java/com/nowcoder/model/Feed.java" />
+        <option value="E:/kili/test.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/nowcoder/Main.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/nowcoder/service/SearchService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/nowcoder/controller/SearchController.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/login.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/letterDetail.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/letter.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/followers.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/followees.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/feeds.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/detail.html" />
+        <option value="$PROJECT_DIR$/src/main/java/com/nowcoder/async/EventType.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/nowcoder/controller/QuestionController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/nowcoder/async/handler/AddQuestionHandler.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/nowcoder/LikeServiceTests.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/nowcoder/util/JedisAdapter.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/header.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/result.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/index.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/profile.html" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/nowcoder/WendaApplication.java" />
+        <option value="$PROJECT_DIR$/src/test/resources/init-schema.sql" />
+        <option value="$PROJECT_DIR$/src/main/java/com/nowcoder/async/handler/FeedHandler.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/nowcoder/async/handler/LoginExceptionHandler.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/nowcoder/controller/FeedController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/nowcoder/controller/FollowController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/nowcoder/model/LoginTicket.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/nowcoder/service/FollowService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/nowcoder/service/UserService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/nowcoder/service/SensitiveService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/nowcoder/controller/LoginController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/nowcoder/util/RedisKeyUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/nowcoder/util/MailSender.java" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="wenda" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="683" />
+    <option name="width" value="683" />
+    <option name="height" value="728" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <flattenPackages ProjectPane="false" />
+      <showMembers ProjectPane="false" />
+      <hideEmptyPackages ProjectPane="true" />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="wenda" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wenda" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../Git/bin/git.exe" />
+    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.nowcoder.controller" />
+      <recent name="com.nowcoder.async.handler" />
+      <recent name="com.nowcoder.dao" />
+      <recent name="com.nowcoder.interceptor" />
+      <recent name="com.nowcoder" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\soft\JetBrains IDEA\IdeaProjects\wenda\src\main\resources\templates" />
+      <recent name="D:\soft\JetBrains IDEA\IdeaProjects\wenda\src\main\resources\com\nowcoder\dao" />
+      <recent name="D:\soft\JetBrains IDEA\IdeaProjects\wenda\src\main\resources\static" />
+      <recent name="D:\soft\JetBrains IDEA\IdeaProjects\wenda\src\main\resources\static\styles" />
+      <recent name="D:\soft\JetBrains IDEA\IdeaProjects\wenda\src\main\java\com\nowcoder\util" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.WendaApplication">
+    <configuration name="JedisAdapter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.nowcoder.util.JedisAdapter" />
+      <module name="wenda" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.nowcoder.util.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.nowcoder.Main" />
+      <module name="wenda" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.nowcoder.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Test" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration name="WendaApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.nowcoder.WendaApplication" />
+      <module name="wenda" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.nowcoder.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration name="LikeServiceTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="wenda" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.nowcoder.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.nowcoder" />
+      <option name="MAIN_CLASS_NAME" value="com.nowcoder.LikeServiceTests" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <properties />
+      <listeners />
+    </configuration>
+    <list>
+      <item itemvalue="Application.WendaApplication" />
+      <item itemvalue="Application.Main" />
+      <item itemvalue="Application.JedisAdapter" />
+      <item itemvalue="Application.Test" />
+      <item itemvalue="JUnit.LikeServiceTests" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.WendaApplication" />
+        <item itemvalue="JUnit.LikeServiceTests" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Test" />
+        <item itemvalue="Application.JedisAdapter" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0e727769-3db6-4d78-bd55-a87cd2ddce1e" name="Default" comment="" />
+      <created>1531381965195</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1531381965195</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="InitDatabaseTests_contextLoads - 2018.07.16 at 15h 34m 48s.xml">
+      <configuration name="InitDatabaseTests.contextLoads" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="InitDatabaseTests_contextLoads - 2018.07.16 at 15h 37m 27s.xml">
+      <configuration name="InitDatabaseTests.contextLoads" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LikeServiceTests - 2018.08.07 at 22h 36m 56s.xml">
+      <configuration name="LikeServiceTests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LikeServiceTests - 2018.08.07 at 22h 38m 28s.xml">
+      <configuration name="LikeServiceTests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LikeServiceTests - 2018.08.07 at 22h 40m 23s.xml">
+      <configuration name="LikeServiceTests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LikeServiceTests - 2018.08.07 at 22h 41m 22s.xml">
+      <configuration name="LikeServiceTests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LikeServiceTests - 2018.08.07 at 22h 43m 09s.xml">
+      <configuration name="LikeServiceTests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LikeServiceTests - 2018.08.07 at 22h 44m 20s.xml">
+      <configuration name="LikeServiceTests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LikeServiceTests - 2018.08.07 at 22h 44m 59s.xml">
+      <configuration name="LikeServiceTests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LikeServiceTests - 2018.08.07 at 22h 45m 29s.xml">
+      <configuration name="LikeServiceTests" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TodoView" selected-index="2">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <layout>
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="bottom" id="TODO" order="5" weight="0.3294893" />
+      <window_info anchor="bottom" id="Messages" order="6" weight="0.3063209" />
+      <window_info anchor="right" id="Palette&#9;" order="4" />
+      <window_info id="Image Layers" order="2" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5045386" side_tool="true" weight="0.34323433" />
+      <window_info anchor="right" id="Maven Projects" order="7" weight="0.32980332" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Run" order="10" sideWeight="0.49546143" visible="true" weight="0.34323433" />
+      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49924356" weight="0.32901135" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info id="Designer" order="2" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19213313" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32901135" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info id="UI Designer" order="2" />
+      <window_info anchor="right" id="Theme Preview" order="6" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="2" sideWeight="0.49848714" weight="0.4376013" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="3" weight="0.25" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/nowcoder/dao/MessageDAO.java</url>
+          <line>16</line>
+          <properties />
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="17" />
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="config" language="JAVA" />
+        <watch expression="followService.getFollowerCount(EntityType.ENTITY_QUESTION, question.getId())" language="JAVA" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="watch">
+      <expression>
+        <expression-string>followService.getFollowerCount(EntityType.ENTITY_QUESTION, question.getId())</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>config</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>request.getHeaderNames()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>sb</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/nowcoder/model/ViewObject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/com/nowcoder/dao/QuestionDAO.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/com/nowcoder/dao/FeedDAO.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="193">
+          <caret line="13" column="39" selection-start-line="13" selection-start-column="39" selection-end-line="13" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/nowcoder/model/Feed.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="237">
+          <caret line="50" column="38" selection-start-line="50" selection-start-column="38" selection-end-line="50" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/nowcoder/MultiThreadTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="78" column="44" selection-start-line="78" selection-start-column="44" selection-end-line="78" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/kili/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" column="41" lean-forward="true" selection-start-line="5" selection-start-column="41" selection-end-line="5" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/nowcoder/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="191">
+          <caret line="245" column="30" selection-start-line="245" selection-start-column="30" selection-end-line="245" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4">
+          <caret line="34" column="26" selection-start-line="34" selection-start-column="26" selection-end-line="34" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/letterDetail.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="18" column="54" selection-start-line="18" selection-start-column="54" selection-end-line="18" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/letter.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="638">
+          <caret line="29" column="102" selection-start-line="29" selection-start-column="102" selection-end-line="29" selection-end-column="102" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/footer.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/followers.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-66">
+          <caret line="39" column="114" selection-start-line="39" selection-start-column="114" selection-end-line="39" selection-end-column="114" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/followees.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-74">
+          <caret line="31" column="171" selection-start-line="31" selection-start-column="171" selection-end-line="31" selection-end-column="171" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/feeds.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-616">
+          <caret line="98" column="84" selection-start-line="98" selection-start-column="84" selection-end-line="98" selection-end-column="84" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/detail.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-176">
+          <caret line="110" column="76" selection-start-line="110" selection-start-column="76" selection-end-line="110" selection-end-column="76" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/nowcoder/service/SearchService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="42" column="59" selection-start-line="42" selection-start-column="59" selection-end-line="42" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/nowcoder/controller/SearchController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="56" column="13" lean-forward="true" selection-start-line="56" selection-start-column="13" selection-end-line="56" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/nowcoder/async/EventType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" column="16" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/nowcoder/async/handler/AddQuestionHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="24" column="8" selection-start-line="24" selection-start-column="8" selection-end-line="24" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#689#690#0" expanded="true" />
+            <element signature="e#749#750#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/nowcoder/WendaApplicationTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/nowcoder/util/JedisAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="151">
+          <caret line="218" column="13" lean-forward="true" selection-start-line="218" selection-start-column="13" selection-end-line="218" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="73">
+          <caret line="53" column="73" lean-forward="true" selection-start-line="39" selection-start-column="45" selection-end-line="39" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/profile.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="91" column="82" selection-start-line="91" selection-start-column="82" selection-end-line="91" selection-end-column="82" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/header.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="67" column="14" lean-forward="true" selection-start-line="64" selection-start-column="150" selection-end-line="64" selection-end-column="152" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/result.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="42" lean-forward="true" selection-start-line="9" selection-start-column="42" selection-end-line="9" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/nowcoder/controller/HomeController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="83">
+          <caret line="36" column="25" selection-start-line="36" selection-start-column="15" selection-end-line="36" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" column="37" selection-start-line="7" selection-start-column="37" selection-end-line="7" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/nowcoder/model/HostHolder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" column="19" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/init-schema.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="487">
+          <caret line="71" column="31" selection-start-line="71" selection-start-column="31" selection-end-line="71" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/nowcoder/InitDatabaseTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="21" column="15" lean-forward="true" selection-start-line="21" selection-start-column="15" selection-end-line="21" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/nowcoder/LikeServiceTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="28" column="22" lean-forward="true" selection-start-line="28" selection-start-column="22" selection-end-line="28" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/nowcoder/async/handler/FeedHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="262">
+          <caret line="83" column="12" selection-start-line="83" selection-start-column="12" selection-end-line="83" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/nowcoder/async/handler/LoginExceptionHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/nowcoder/controller/FeedController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="185">
+          <caret line="41" column="19" selection-start-line="41" selection-start-column="19" selection-end-line="41" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1896#1902#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/nowcoder/model/LoginTicket.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" column="34" selection-start-line="8" selection-start-column="34" selection-end-line="8" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/nowcoder/controller/QuestionController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="33" column="4" selection-start-line="33" selection-start-column="4" selection-end-line="33" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/nowcoder/controller/FollowController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="229">
+          <caret line="45" column="40" selection-start-line="45" selection-start-column="40" selection-end-line="45" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/nowcoder/service/QuestionService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/nowcoder/service/FollowService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="205">
+          <caret line="101" column="20" selection-start-line="101" selection-start-column="20" selection-end-line="101" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/nowcoder/service/SensitiveService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1342">
+          <caret line="2" column="41" selection-start-line="2" selection-start-column="32" selection-end-line="2" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/nowcoder/service/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="183">
+          <caret line="26" column="33" selection-start-line="26" selection-start-column="33" selection-end-line="26" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#3094#3095#0" expanded="true" />
+            <element signature="e#3139#3140#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/nowcoder/util/RedisKeyUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="36" column="22" selection-start-line="36" selection-start-column="22" selection-end-line="36" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/nowcoder/util/WendaUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-704">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/nowcoder/controller/LoginController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="116">
+          <caret line="71" column="62" selection-start-line="71" selection-start-column="62" selection-end-line="71" selection-end-column="62" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/nowcoder/util/MailSender.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="24" column="54" selection-start-line="24" selection-start-column="54" selection-end-line="24" selection-end-column="54" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/SensitiveWords.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mybatis-config.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/nowcoder/WendaApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="44" lean-forward="true" selection-start-line="9" selection-start-column="44" selection-end-line="9" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#486#487#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>wenda</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: ch.qos.logback:logback-classic:1.2.3</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
