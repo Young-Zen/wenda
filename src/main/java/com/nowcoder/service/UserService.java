@@ -29,8 +29,20 @@ public class UserService {
             map.put("msg","用户名不能为空");
             return map;
         }
+        if(username.length()>64){
+            map.put("msg","用户名长度不能超过64");
+            return map;
+        }
+        if(sensitiveService.isContainSensitive(username)!=null){
+            map.put("msg","用户名不能含有敏感词："+sensitiveService.isContainSensitive(username));
+            return map;
+        }
         if(StringUtils.isBlank(password)){
             map.put("msg","密码不能为空");
+            return map;
+        }
+        if(password.length()>128){
+            map.put("msg","密码长度不能超过128");
             return map;
         }
         User user=userDAO.selectByName(username);

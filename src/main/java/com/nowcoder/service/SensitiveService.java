@@ -8,6 +8,7 @@ import org.springframework.beans.factory.InitializingBean;
 import org.springframework.stereotype.Service;
 
 import java.io.BufferedReader;
+import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.util.HashMap;
@@ -24,17 +25,25 @@ public class SensitiveService implements InitializingBean {
 
     @Override
     public void afterPropertiesSet() throws Exception {
+        BufferedReader bufferedReader=null;
         try{
             InputStream is=Thread.currentThread().getContextClassLoader().getResourceAsStream("SensitiveWords.txt");
-            InputStreamReader reader=new InputStreamReader(is);
-            BufferedReader bufferedReader=new BufferedReader(reader);
+            bufferedReader=new BufferedReader(new InputStreamReader(is));
             String lineTxt;
             while((lineTxt=bufferedReader.readLine())!=null){
                 addWord(lineTxt.trim());
             }
-            bufferedReader.close();
+            //bufferedReader.close();
         }catch (Exception e){
             logger.error("读取敏感词文件失败"+e.getMessage());
+        }finally {
+            try {
+                if (bufferedReader != null) {
+                    bufferedReader.close();
+                }
+            }catch (IOException e){
+                logger.error("关闭流失败"+e.getMessage());
+            }
         }
     }
 
@@ -159,6 +168,49 @@ public class SensitiveService implements InitializingBean {
         }
         result.append(text.substring(begin));
         return result.toString();
+    }
+
+    /**
+     * 是否包含敏感词
+     */
+    public String isContainSensitive(String text){
+        String str=null;
+        if(StringUtils.isBlank(text)){
+            return str;
+        }
+        TrieNode tempNode=rootNode;
+        int begin=0; // 回滚数
+        int position=0; // 当前比较的位置
+        while(position<text.length()){
+            char c=text.charAt(position);
+            // 空格和符号直接跳过
+            if(isSymbol(c)){
+                if(tempNode==rootNode){
+                    begin++;
+                }
+                position++;
+                continue;
+            }
+            tempNode=tempNode.getSubNode(c);
+            // 当前位置的匹配结束
+            if(tempNode==null){
+                // 以begin开始的字符串不存在敏感词
+                // 跳到下一个字符开始测试
+                position=begin+1;
+                begin=position;
+                // 回到树初始节点
+                tempNode=rootNode;
+            }else if(tempNode.isKeywordEnd()){
+                // 发现敏感词， 从begin到position的位置用replacement替换掉
+                position=position+1;
+                str=text.substring(begin,position);
+                begin=position;
+                tempNode=rootNode;
+            }else{
+                position++;
+            }
+        }
+        return str;
     }
 
     /*public static void main(String[] argv){
