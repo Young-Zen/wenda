@@ -7,6 +7,7 @@ public class LoginTicket {
     private int userId;
     private Date expired;
     private int status; // 0有效，1无效
+    private String ticket;
 
     public int getId() {
         return id;
@@ -47,6 +48,4 @@ public class LoginTicket {
     public void setTicket(String ticket) {
         this.ticket = ticket;
     }
-
-    private String ticket;
 }

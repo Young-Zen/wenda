@@ -34,7 +34,7 @@ public class SearchController {
     QuestionService questionService;
 
     @RequestMapping(path = {"/search"},method = RequestMethod.GET)
-    public String addComment(Model model, @RequestParam("q") String keyword,
+    public String searchQuestion(Model model, @RequestParam("q") String keyword,
                              @RequestParam(value = "offset",defaultValue = "0") int offset,
                              @RequestParam(value = "count",defaultValue = "10") int count){
         try {
